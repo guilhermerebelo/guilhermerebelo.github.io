@@ -1,0 +1,47 @@
+@media (max-width: 993px){
+.apagar{
+	display: none;
+}
+.limenu{
+	background-color: #8e0b0f;
+}
+.txtMenu{
+	color: white;
+}
+header{
+	background-color: #8e0b0f;
+}
+.tituloMenuText{
+	text-align: center;
+}
+.liMenuText{
+	text-align: center;
+}
+ .txtTransicaoMaior{
+ 	font-size: 25px;
+ 	font-family: 'Montserrat', sans-serif;
+ 	margin-left: 5%;
+ }
+ .txtTransicaoMenor{
+ 	font-size: 15px;
+ 	font-family: 'Montserrat', sans-serif;
+ 	margin-left: 5%;
+ }
+
+#subir{
+ 	position: fixed;
+ 	height: 60px;
+ 	width: 60px;
+ 	right: 5px;
+ 	bottom: 40px;
+ 	z-index: 99;
+ 	opacity: 0.5;
+ 	padding: 0px;
+ 	cursor: pointer;
+ 	transition: all 0.1s;
+ }
+ #subir:hover{
+ 	opacity: 0.8;
+
+ }
+}

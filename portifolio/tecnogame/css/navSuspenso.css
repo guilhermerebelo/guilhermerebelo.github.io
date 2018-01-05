@@ -1,0 +1,41 @@
+#menuSuspenso{
+	position: fixed;
+	height: 100px;
+	background-color: white;
+	width: 100%;
+	top: -100px; /*subir para -100*/
+	z-index: 90;
+	background-color: rgba(255, 255, 255, 0.95);
+	transition: 0.2s all;
+}
+#menuSuspenso div div img{
+	padding-top: 10px;
+}
+#navMenuSuspenso{
+	padding-top: 38px;
+}
+#socialSuspenso{
+	padding-top: 25px; 
+}
+.txtMenu span{
+	color: black;
+	cursor: pointer;
+}
+.txtLink span{
+	color: black;
+}
+
+.efeitoMenuSuspenso:after{
+	content:"";
+	position:absolute;
+	bottom:0;
+	width:0%;
+	height:2px;
+	background-color: black;
+	display:block;
+	transition:width 0.3s linear;	
+	
+}
+.efeitoMenuSuspenso:hover:after{
+	width: 80%;
+}

@@ -1576,3 +1576,38 @@ img {
     left: calc(50% - 80px); } }
 
 /*# sourceMappingURL=theme-FuchiStudio.css.map */
+
+.font-italic{
+  font-style: italic;
+}
+.color-green{
+  color: green;
+}
+.frase-citacao span{
+  font-style: normal;
+  font-size: 0.9em;
+}
+
+#fontNome{
+  font-size: 2.8em;
+}
+#fontTitulo{
+  margin-top: -30px;
+  font-size: 1.4em;
+}
+.ul-social-icon{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 2em;
+}
+.ul-social-icon li{
+  margin-right: 35px;
+}
+.titulo-section{
+  padding-left: 1em;
+  font-size: 2em;
+}
+.titulo-section span{
+  font-size: .7em;
+}

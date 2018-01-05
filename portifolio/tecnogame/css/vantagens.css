@@ -1,0 +1,41 @@
+#secaoVantagem{
+	position: relative;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.heightVantagem{
+	margin: auto;
+	position: relative;
+	height: 230px;
+	width: 75%;
+	border: 2px solid #f2f2f2;
+	border-radius: 2px;
+	position: relative;
+	margin-top: 50px;
+	filter: grayscale(100%);
+	transition: all 0.5s;
+	max-width: 350px;
+	padding-top: 60px;
+	font-size: 30px;
+}
+.heightVantagem:hover{
+	border: 2px solid #2ecc71;
+	filter: grayscale(0%);
+	cursor: pointer;
+	color: #2ecc71;
+
+}
+.imgVantagem{
+	margin-top: 30px;
+}
+.txtVantagem{
+	text-align: justify;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	display: block;
+}
+
+.heightTransicaoVantagem{
+    padding-top: 20px;
+ }

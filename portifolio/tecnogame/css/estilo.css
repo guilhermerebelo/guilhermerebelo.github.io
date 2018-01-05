@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+} 
+a:hover{
+	text-decoration: none;
+}
+.paragrafo{
+	text-indent: 1.5em;
+	text-align: justify;
+}
+.txtLink{
+	color: white;
+	transition: all 0.5s;
+}
+.txtLink:hover{
+	color: white;
+}
+/* começo - area de transição */
+
+.heightTransicao{
+    padding-top: 20px;
+ 	padding-bottom: 40px;
+ }
+ @media (min-width: 700px){
+
+ .txtTransicaoMaior{
+ 	font-size: 45px;
+ 	font-family: 'Montserrat', sans-serif;
+ 	margin-left: 5%;
+
+ }
+ .txtTransicaoMenor{
+ 	font-size: 20px;
+ 	font-family: 'Montserrat', sans-serif;
+ 	margin-left: 5%;
+ }
+
+  #subir{
+ 	position: fixed;
+ 	height: 60px;
+ 	width: 60px;
+ 	right: 50px;
+ 	bottom: 50px;
+ 	z-index: 80;
+ 	opacity: 0.5;
+ 	padding: 0px;
+ 	cursor: pointer;
+ 	transition: all 0.1s;
+ }
+ #subir:hover{
+ 	opacity: 0.8;
+
+ }
+
+ #triangulo{
+ 	text-align: center;
+ 	opacity: 0.6;
+ 	margin-bottom: 50px;
+ }
+
+
+/* final - area de transição */
+
+

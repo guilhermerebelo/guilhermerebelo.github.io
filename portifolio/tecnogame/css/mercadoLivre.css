@@ -1,0 +1,32 @@
+#mercadoLivre{
+	background-color: #fff059;
+	padding-top: 70px;
+	padding-bottom: 80px;
+	margin-top: 20px;
+	text-align: center;
+}
+.secaoMercadoLivre{
+	min-height: 350px;
+}
+#areaFacebook{
+	margin: auto;
+	text-align: center;
+}
+#txtFacebook{
+	margin-top: 15px;
+}
+#pluginFacebook{
+	width: 100%;
+}
+#divSocial{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.iconSocial{
+	margin: 10px;
+	opacity: 0.8;
+
+}
+.iconSocial:hover{
+	opacity: 1;
+}

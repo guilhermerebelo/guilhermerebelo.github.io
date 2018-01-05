@@ -1,0 +1,112 @@
+/* marcas - COMEÇO */
+
+#marcas{
+	margin-top: 30px;
+
+}
+.efeitoMarcas{
+	
+	transition: all 0.5s;
+}
+.efeitoMarcas:hover{
+	
+	cursor: pointer;	
+}
+/* final - FIM */
+
+/*footer da pagina*/
+
+#rodape{
+	/*background: linear-gradient(#92e601, #2ecc71);*/
+	background-color: #7f8c8d; 
+	color: white;
+	position: relative;
+	/*margin-top: 50px;*/
+}
+.heightFooter{
+	height: 280px;
+	padding: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+.menuFooter{
+	margin-top: 25px;
+
+}
+.tituloMenuText{
+	font-size: 25px;
+	margin-bottom: 20px;
+	color: white;
+	list-style: none;
+}
+.liMenuText{
+	list-style: none;
+	color: #e6e6e6;
+	font-size: 14px;
+}
+#socialFooter{	
+	text-align: center;
+	margin-top: 10px;
+}
+.imgSocialFooter{
+	opacity: 0.8;
+}
+.imgSocialFooter:hover{
+	opacity: 1;
+}
+.mapaSite:hover{
+	cursor: pointer;
+	color: white;
+}
+
+/*.sombraDiv{
+	-webkit-box-shadow: -1px -7px 30px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -7px 30px -5px rgba(0,0,0,0.75);
+	box-shadow: -1px -7px 30px -5px rgba(0,0,0,0.75);
+}*/
+
+#imgFooter{
+	margin: auto;
+	display: block;
+	opacity: 0.8;	
+	transition: 0.5s;
+	transform: scale(.7);
+}
+#imgFooter:hover{
+	cursor: default;
+	opacity: 1;
+}
+#textoFooter{
+	display: block;
+	font-size: 55px;
+	font-family: 'Montserrat', sans-serif;
+	color: yellow;
+	text-align: center;
+	transition: 0.5s;
+	opacity: 0.8;
+	
+}
+#textoFooter:hover{
+	cursor: default;
+	opacity: 1;
+
+}
+.heightFonteLogo{
+	height: 150px;
+	background-color: #7f8c8d;
+}
+
+
+
+
+
+#copyRight{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	display: block;
+	color: white;
+	/*background-color: #2ecc71;*/
+}
+
+
+/*footer da pagina*/

@@ -1,0 +1,32 @@
+#secaoRedeSocial{
+	background-color: #2980b9;
+	padding-top: 90px;
+	padding-bottom: 80px;
+	
+	text-align: center;
+}
+.secaoRedeSocial{
+	min-height: 350px;
+}
+#areaFacebook{
+	margin: auto;
+	text-align: center;
+}
+#txtFacebook{
+	margin-top: 15px;
+}
+#pluginFacebook{
+	width: 100%;
+}
+#divSocial{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.iconSocial{
+	margin: 10px;
+	opacity: 0.8;
+
+}
+.iconSocial:hover{
+	opacity: 1;
+}

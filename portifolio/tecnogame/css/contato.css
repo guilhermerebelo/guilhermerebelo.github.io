@@ -1,0 +1,56 @@
+#secaoContato{
+	background: #2ecc71;
+	color: white;
+}
+.heightTransicaoContato{
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+.formulario{
+	padding-top: -80px;
+	margin: auto;
+	position: relative;
+}
+#dadosFormulario{
+	float: none;
+	margin: auto;
+	text-align: 
+}
+.fInput{
+	border: #bfbfbf solid 1px;
+	border-radius: 7px;
+	width: 85%;
+	padding: 7px;	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: black;
+}
+.fLabel{
+	margin-bottom: -5px;	
+}
+.fFont{
+	font-size: 17px;
+	font-family: 'Montserrat', sans-serif;
+	cursor: default;
+}
+/*#fBotao{
+	height: 40px;
+	width: 120px;
+	margin-top: 5px;
+	background-color: #990000;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	border-radius: 7px;
+	transition: all 0.5s;
+	cursor: default;
+	margin-bottom: 80px;
+}
+#fBotao:hover{
+	background-color: #ed1219;
+	cursor: pointer;
+}*/
+#googleMaps{
+	width: 80%;
+	position: relative;
+}

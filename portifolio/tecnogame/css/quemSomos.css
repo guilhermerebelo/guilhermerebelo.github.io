@@ -1,0 +1,23 @@
+.heightQuemSomos{
+	padding: 10px 40px;
+	margin-top: -40px;
+}
+#imgQuemSomos{
+	display: block;
+	margin: auto;
+	width: 95%;
+	margin-bottom: 60px;
+	margin-top: 60px;
+	box-shadow: 6px 5px 38px -9px rgba(199,199,199,1);
+}
+.txtQuemSomos{
+	display: block;
+	margin: auto;
+	width: 95%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	text-align: justify;
+}
+.fontQuemSomos{
+	margin-top: 20px;	
+}

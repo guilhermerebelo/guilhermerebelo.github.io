@@ -1,0 +1,47 @@
+#secaoLancamento{
+	background-color: #333333;
+	padding-top: 30px;
+	padding-bottom: 80px;
+	margin-bottom: -5px;
+}
+
+ .tituloNovidade{
+ 	background-color: #333333;
+ 	color: white;
+ 	position: relative;
+ 	display: block;
+ 	padding-top: 20px;
+ 	padding-bottom: 40px;
+ }
+
+ /* começo area LANÇAMENTOS*/
+
+
+.semDataVenda{
+	background-image: url("../imagens/clique.png") ;
+	background-repeat: no-repeat;
+    background-position: center; 
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	border: 1px solid black;
+	transition: all 0.4s;
+}
+.semDataVenda:hover{
+	border: 8px solid #262626;	
+	filter: grayscale(10%);
+}
+.imglancamento:hover{
+	opacity: 0.1;
+	filter: grayscale(10%);
+}
+.ajuste{
+	left: 10px;
+	position: relative;
+}
+.fonteNovidade{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* final area LANÇAMENTOS*/
