@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Outback | Steakhouse</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap-v4.0.0/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/estilo.css" rel="stylesheet">    
+
+  
+</head>
+<body>
+
+
+  <header class="container">
+    <div class="d-flex flex-wrap align-items-center flex-row justify-content-between">
+      
+      <figure>
+        <img id="logo-principal" height="60" src="imagens/logo.png">
+      </figure>      
+      
+      <nav id="nav-desktop">
+        <ul class="d-flex flex-nowrap flex-row align-items-center menu-principal">
+          <li>
+            <a class="cor-cinza scrollSuave" href="#sobre-nos">SOBRE NÓS</a>
+          </li>
+          <li>
+            <a class="cor-cinza scrollSuave" href="#nossos-servicos">NOSSOS SERVIÇOS</a>
+          </li>
+          <li>
+            <a class="cor-cinza scrollSuave" href="#section-imagens">GALERIA DE IMAGEM</a>
+          </li>
+          <li>
+            <a class="cor-cinza scrollSuave" href="#localizacao">LOCALIZAÇÃO</a>
+          </li>
+          <li class="menu-borda">
+            <a class="cor-cinza scrollSuave" href="#section-contato">CONTATO</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav id="nav-mobile">        
+          <div>
+              <button id="hamburguer-btn">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </button>
+          </div>
+          
+          <div id="div-menu" class="d-flex flex-nowrap flex-column justify-content-center align-items-center">
+              <span class="pointer text-white" id="fechar-menu">X</span>
+              <ul class="d-flex flex-column nav">
+                  <li class="text-center pointer d-flex align-items-end" >
+                    <a class="link-menu-hambuguer efeitoMenu w-100 scrollSuave" href="#sobre-nos">SOBRE NÓS</a>
+                  </li>
+                  <li class="text-center pointer d-flex align-items-end" >
+                    <a class="link-menu-hambuguer efeitoMenu w-100 scrollSuave" href="#nossos-servicos">NOSSOS SERVIÇOS</a>
+                  </li>
+                  <li class="text-center pointer d-flex align-items-end" >
+                    <a class="link-menu-hambuguer efeitoMenu w-100 scrollSuave" href="#section-imagens">GALERIA DE IMAGEM</a>
+                  </li>
+                  <li class="text-center pointer d-flex align-items-end" >
+                    <a class="link-menu-hambuguer efeitoMenu w-100 scrollSuave" href="#localizacao">LOCALIZAÇÃO</a>
+                  </li>
+                  <li class="text-center pointer d-flex align-items-end" >
+                    <a class="link-menu-hambuguer efeitoMenu w-100 scrollSuave" href="#section-contato">CONTATO</a>
+                  </li>
+              </ul>
+          </div>        
+      </nav>
+      
+    </div>
+  </header>
+
+
+
+  <section class="container-fluid">
+    <div id="banner-principal">
+      <figure class="d-flex flex-nowrap flex-column">
+        <img  src="imagens/banner-principal.png">
+        <div class="text-white">          
+            <h1 >Um ambiente sofisticado</h1>
+            <h2 class="cor-cinza">elegante e aconchegante</h2>          
+        </div>
+      </figure>
+    </div>
+  </section> 
+
+  
+  <section class="container" id="sobre-nos">
+    <div class="d-flex flex-row flex-wrap justify-content-center align-items-center">
+      <div class="col-md-offset-2 col-md-4 text-center">
+        <h1 class="titulo-section cor-cinza">SOBRE NÓS</h1>
+        <div class="d-flex flex-row hr-titulo">
+          <hr>  
+          <p> &#8226 </p>
+          <hr>
+        </div>
+        
+        <h2 class="subtitulo-section cor-cinza">O outback</h2>
+        <p class="conteudo-section cor-cinza"> 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repreheate velit esse cillun dolore eu fugiat, Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.          
+        </p>
+      </div>
+      <div class="col-md-6 col-md-offset-2">
+        <figure>
+          <img class="w-100" src="imagens/imagem-sobre-nos.png">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="nossos-servicos" class="container-fluid">
+    <div class="d-flex flex-nowrap flex-column align-items-center justify-content-center">
+      <h1 class="titulo-section cor-cinza">NOSSO SERVIÇOS</h1>
+      <div class="d-flex flex-row hr-titulo">
+        <hr>  
+        <p> &#8226 </p>
+        <hr>
+      </div>     
+      <h2 class="subtitulo-section cor-cinza">Áreas de atuação</h2>
+
+      <div id="conteudo-servicos">
+        <ol class="d-flex flex-wrap flex-row align-items-center justify-content-between cor-cinza conteudo-section font-weight-bold" >
+          <li class="col-md-4 testeee"> <span class="icone-ok"></span>  Biscoito de povilho </li>
+          <li class="col-md-4 testeee"> <span class="icone-ok"></span>  Massa de pizza </li>
+          <li class="col-md-4 testeee"> <span class="icone-ok"></span>  Pastel de linhaça </li>
+          <li class="col-md-4 testeee"> <span class="icone-ok"></span>  Bolo de abacaxi </li>
+          <li class="col-md-4 testeee"> <span class="icone-ok"></span>  Muffins </li>
+          <li class="col-md-4 testeee"> <span class="icone-ok"></span>  Pão de Aipim </li>
+          <li class="col-md-4 testeee"> <span class="icone-ok"></span>  Biscoito de povilho </li>
+          <li class="col-md-4 testeee"> <span class="icone-ok"></span>  Massa de pizza </li>
+          <li class="col-md-4 testeee"> <span class="icone-ok"></span>  Pastel de linhaça </li>
+          <li class="col-md-4 testeee"> <span class="icone-ok"></span>  Bolo de abacaxi </li>
+          <li class="col-md-4 testeee"> <span class="icone-ok"></span>  Muffins </li>
+          <li class="col-md-4 testeee"> <span class="icone-ok"></span>  Pão de Aipim </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-imagens" class="container-fluid">
+
+    <div class="d-flex flex-nowrap flex-column align-items-center justify-content-center">
+      <h1 class="titulo-section text-white">GALERIA DE IMAGEM</h1>
+      <div class="d-flex flex-row hr-titulo">
+        <hr>  
+        <p class="text-white"> &#8226 </p>
+        <hr>
+      </div>
+      <h2 class="subtitulo-section text-white">Nossas fotos</h2>
+
+      <!--
+      <div style="overflow: hidden;width: 850px" id="div-galeria-imagens" class="d-flex flex-nowrap flex-row align-items-center justify-content-between" style="width: 100%">
+        <div >
+          <figure style="margin: 0">
+            <img   style="height: 190px;width: 260px" src="imagens/produto1.png">
+          </figure>
+        </div>
+        <div >
+          <figure style="margin: 0">
+            <img  style="height: 190px;width: 260px"  src="imagens/produto2.png">
+          </figure>
+        </div>
+        <div >
+          <figure style="margin: 0">
+            <img   style="height: 190px;width: 260px" src="imagens/produto3.png">
+          </figure>
+        </div>        
+      </div>
+      -->
+
+      <div  id="div-player-slider">
+        <ul class="d-flex flex-row flex-nowrap align-items-center text-white pointer">
+          <li class="list-none"> 
+            <div ></div>
+          </li>
+          <li class="list-none" > 
+            <div ></div>
+          </li>
+          <li class="list-none" > 
+            <div ></div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    
+  </section>
+
+  <section id="section-localizacao" class="container-fluid" >
+    <div id="localizacao" class="d-flex flex-column align-items-center">
+      <h1 class="titulo-section cor-cinza">LOCALIZAÇÃO</h1>
+       <div class="d-flex flex-row hr-titulo">
+        <hr>  
+        <p> &#8226 </p>
+        <hr>
+      </div>
+      <h2 class="subtitulo-section cor-cinza">Endereço</h2>
+
+      <div class="container d-flex flex-row flex-wrap justify-content-between align-items-center" >
+        <div id="googleMap"></div>
+        <div id="dados-empresa" class="cor-cinza">
+            <p>HORARIO DE ATENDIMENTO<br>
+              Segunda à sexta:<br>
+              08:00 ás 12:00 e 13:30 ás 18:00<br>
+              Sábado:<br>
+              08:00 ás 12:00
+            </p>
+            
+            <p>ENDEREÇO<br>
+              Rodovia SC 444 9730 - km 11, SC<br>
+              Cep: 88820-000
+            </p>
+            
+            <p>TELEFONE<br>
+              (48) 3432 0029
+            </p>
+            
+            <p>REDES SOCIAS</p>
+
+            <p> <span class="cor-cinza" >f</span> </p> 
+
+          </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="section-contato">
+    <div class="d-flex flex-column flex-nowrap align-items-center justify-content-center">
+      <h1 class="titulo-section text-white">CONTATO</h1>
+      <div class="d-flex flex-row hr-titulo">
+        <hr>  
+        <p class="text-white"> &#8226 </p>
+        <hr>
+      </div>
+      <h2 class="subtitulo-section text-white">Fale conosco</h2>
+      <form >
+        <div class="input-form">
+          <label for="label1"   class="text-white">Nome*: <span id="label1" class="cor-cinza"> Escreva seu nome </span> </label>
+          <input class="form-control" id="input1" type="text" >
+        </div>
+        <div class="input-form" >
+          <label for="label2"  class="text-white">Email*: <span id="label2" class="cor-cinza"> contato@cliente.com.br </span> </label>
+          <input class="form-control" id="input2" type="text" >
+        </div>
+        <div class="input-form" >
+          <label for="label3"  class="text-white">Telefone*: <span id="label3"  class="cor-cinza"> (48) 3432-0029 </span> </label>
+          <input class="form-control" id="input3" type="text" >
+        </div>
+        <div class="input-form" >
+          <label for="label4" id="label4"  class="text-white">Mensagem*: <span class="cor-cinza"> Escreva sua mensagem </span> </label>
+          <textarea class="form-control" type="text" ></textarea>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="container-fluid" id="section-footer">
+    <hr>
+    <div class="container d-flex flex-row flex-nowrap justify-content-between text-white">
+      <p>@Copyright 2016</p>
+      <p>Cartão virtual by VIRTUALIZA</p>  
+    </div>    
+  </footer>
+
+
+
+
+  <!--link js -->
+  <script src="lib/jquery/jquery-2.1.0.js"></script>
+  <script src="lib/bootstrap-v4.0.0/bootstrap.js"></script>
+  <script src="js/funcoes.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnmHMqckSmb9_BBCGr0tWlV9KjyiWTaM0&callback=myMap"></script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+·         Utilizar Bootstrap para desenvolvimento do front;
+
+·         Layout deve ser responsivo;
+
+·         Links do menu são âncoras que rolam para parte de baixo da página;
+
+·         Envio de formulário de contato
+
+		o   Validação dos campos obrigatórios, e mostrar mensagem quando tentar enviar sem os mesmos preenchidos (jQuery)
+
+		o   E-mail com todas as informações do contato devem ser encaminhados a um e-mail de destino
+
+		o   Salvar contato em banco
+
+·         Áreas de atuação deve ser dinâmico (Tela para cadastro e edição das áreas)
+
+·         Painel administrativo
+
+		o   Edição e cadastro das áreas de atuação
+
+		o   Visualização dos contatos recebidos
