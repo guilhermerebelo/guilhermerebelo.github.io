@@ -1,18 +1,18 @@
-body{
+body {
     background-color: rgb(243, 243, 243);
 }
-.text-ident{
+.text-ident {
     /* text-indent: 80px; */
 }
 
-.jumbotron{
+.jumbotron {
     border-left: 4px solid rgb(0, 119, 255);
     background-color: white;
 }
 
-.border-left{
+.border-left {
     border-left: 2px solid rgb(0, 162, 255) !important;
 }
-.cor-conteudo{
+.cor-conteudo {
     background-color: rgb(250, 250, 250);
 }
